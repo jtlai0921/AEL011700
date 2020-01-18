@@ -1,0 +1,14 @@
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\bin\Debug\通訊錄管理.exe.config
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\bin\Debug\通訊錄.sdf
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\bin\Debug\通訊錄管理.exe
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\bin\Debug\通訊錄管理.pdb
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\bin\Debug\通訊錄管理.xml
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.Form1.resources
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.Form2.resources
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.Resources.resources
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.exe
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.xml
+C:\VB2010\Ch16\Ch16-3-3\通訊錄管理\obj\x86\Debug\通訊錄管理.pdb

@@ -1,0 +1,8 @@
+<!ELEMENT InitData (Language, Popup, Highlight, Objects, Width, Height,ProgLang)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Popup (#PCDATA)>
+<!ELEMENT Highlight (#PCDATA)>
+<!ELEMENT Objects (#PCDATA)>
+<!ELEMENT Width (#PCDATA)>
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT ProgLang (#PCDATA)>

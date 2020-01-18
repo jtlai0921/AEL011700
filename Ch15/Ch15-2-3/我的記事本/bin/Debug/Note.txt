@@ -1,0 +1,9 @@
+輸入路徑: C:\VB2010\Ch15\Ch15-2-3\我的記事本\bin\Debug\
+-----------
+Note.txt
+我的記事本.exe
+我的記事本.pdb
+我的記事本.vshost.exe
+我的記事本.vshost.exe.manifest
+我的記事本.xml
+

@@ -1,0 +1,11 @@
+C:\VB2010\Ch04\Ch4-5\標籤控制項\bin\Debug\標籤控制項.exe
+C:\VB2010\Ch04\Ch4-5\標籤控制項\bin\Debug\標籤控制項.pdb
+C:\VB2010\Ch04\Ch4-5\標籤控制項\bin\Debug\標籤控制項.xml
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\標籤控制項.Form1.resources
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\標籤控制項.Resources.resources
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\標籤控制項.exe
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\標籤控制項.xml
+C:\VB2010\Ch04\Ch4-5\標籤控制項\obj\x86\Debug\標籤控制項.pdb

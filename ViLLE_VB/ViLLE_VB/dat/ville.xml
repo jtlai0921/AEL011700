@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE InitData SYSTEM "ville.dtd">
+<InitData>
+	<Language>1</Language>
+	<Popup>1</Popup>
+	<Highlight>1</Highlight>
+	<Objects>1</Objects>
+	<Width>1280</Width>
+	<Height>694</Height>
+	<ProgLang>Visual Basic</ProgLang>
+</InitData>

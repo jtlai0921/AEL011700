@@ -1,0 +1,11 @@
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\bin\Debug\手機品牌票選.exe
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\bin\Debug\手機品牌票選.pdb
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\bin\Debug\手機品牌票選.xml
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\手機品牌票選.Form1.resources
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\手機品牌票選.Resources.resources
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\手機品牌票選.exe
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\手機品牌票選.xml
+C:\Users\hueyan\AppData\Local\Temporary Projects\手機品牌票選\obj\x86\Debug\手機品牌票選.pdb

@@ -1,0 +1,7494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Syntaxes SYSTEM "syntax.dtd">
+<Syntaxes>
+  <Syntax>
+    <Language>Java</Language>
+    <Typed>true</Typed>
+    <Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt;= @2; @0--){</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt;= @2; @0++){</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt; @2; @0--){</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt; @2; @0++){</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt;= @2; @0 = @0-@3){</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt;= @2; @0 = @0+@3){</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt; @2; @0 = @0-@3){</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt; @2; @0 = @0+@3){</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>while</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>while (@0){</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>}</Key>
+      		<Key>while</Key>
+      		<Key>(</Key>
+      		<Key>)</Key>
+      		<Key>;</Key></Keys>
+      	<Code>} while (@0);</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>do</Key>
+      		<Key>{</Key></Keys>
+      	<Code>do {</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>else if (@0){</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>if (@0){</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>else{</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>main</Key>
+        </Keys>
+        <Code>public static void main(String[] args){</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>public static void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>private static void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>public void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>private void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>public class @0{</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>private class @0{</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>class</Key>
+        </Keys>
+        <Code>class @0{</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>public static @0_@1(@2){</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>private static @0_@1(@2){</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>public @0_@1 (@2){</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>private @0_@1 (@2){</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>switch</Key>
+        </Keys>
+        <Code>switch(@0){</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>public @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>return</Key>
+        </Keys>
+        <Code>return @0;</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.println</Key>
+        </Keys>
+        <Code>System.out.println(@0);</Code>
+      </Command>
+	  <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.print</Key>
+        </Keys>
+        <Code>System.out.print(@0);</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+        </Keys>
+        <Code>else if (@0)</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>(</Key>
+        </Keys>
+        <Code>if (@0)</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>else</Key>
+        </Keys>
+        <Code>else</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>int[][] @0 = new int[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>float[][] @0 = new float[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>double[][] @0 = new double[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>String[][] @0 = new String[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>boolean[][] @0 = new boolean[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>int[] @0 = new int[@1];</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>float[] @0 = new float[@1];</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>double[] @0 = new double[@1];</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>String[] @0 = new String[@1];</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>boolean[] @0 = new boolean[@1];</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>int[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>float[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>double[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>String[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>boolean[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>int[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>float[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>double[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>String[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>boolean[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>new</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = new @1(@2);</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>new</Key>
+        </Keys>
+        <Code>new @0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>+=</Key>
+        </Keys>
+        <Code>@0 += @1;</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-=</Key>
+        </Keys>
+        <Code>@0 -= @1;</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>*=</Key>
+        </Keys>
+        <Code>@0 *= @1;</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>/=</Key>
+        </Keys>
+        <Code>@0 /= @1;</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>int @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>float @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>double @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>boolean @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>String @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>++</Key>
+        </Keys>
+        <Code>@0++;</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>--</Key>
+        </Keys>
+        <Code>@0--;</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>case</Key>
+          <Key>;</Key>
+        </Keys>
+        <Code>case @0 : @1;</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>case @0 :</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>//</Key>
+        </Keys>
+        <Code>//@0</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>/*</Key>
+          <Key>*/</Key>
+        </Keys>
+        <Code>/*@0*/</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>/*</Key>
+        </Keys>
+        <Code>/*@0</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>*/</Key>
+        </Keys>
+        <Code>@0*/</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>@0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>break;</Key>
+        </Keys>
+        <Code>break;</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>continue;</Key>
+        </Keys>
+        <Code>continue;</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>;</Key>
+        </Keys>
+        <Code>@0;</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX: </Code>
+      </Command>
+    </Commands>
+  </Syntax>
+  <Syntax>
+    <Language>Python</Language>
+    <Typed>false</Typed>
+    <Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>&gt;=</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2-1,-1):</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>&lt;=</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2+1,1):</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2,-1):</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2,1):</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;=</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2-1,-@3):</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;=</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2+1,@3):</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2,-@3):</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;</Key>
+        </Keys>
+        <Code>for @0 in range(@1,@2,@3):</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>while</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>while @0:</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>while</Key></Keys>
+      	<Code>while @0</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>do</Key>
+      		<Key>:</Key></Keys>
+      	<Code>do:</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>elif</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>elif @0:</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>if @0:</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>else:</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>main</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def main():</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @0(@1):</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @0(@1):</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @0(@1):</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @0(@1):</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>class</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>class @0:</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>class</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>class @0:</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>class</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>class @0:</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @1(@2):</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @1(@2):</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @1(@2):</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @1(@2):</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>switch</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>switch(@0):</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>¤</Key>
+        </Keys>
+        <Code> </Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>def</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>def @0(self,@1):</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>return</Key>
+        </Keys>
+        <Code>return @0</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>print</Key>
+        </Keys>
+        <Code>print @0</Code>
+      </Command>
+	  <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>print</Key>
+        </Keys>
+        <Code>print @0,</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>elif</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>elif @0:</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>if @0:</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>:</Key>
+        </Keys>
+        <Code>else:</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1,@2)</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1,@2)</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1,@2)</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1,@2)</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1,@2)</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1)</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1)</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1)</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1)</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = Table(@1)</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>Table</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>@0 = @1(@2)</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>@0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>+=</Key>
+        </Keys>
+        <Code>@0 = @0 + @1</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-=</Key>
+        </Keys>
+        <Code>@0 = @0 - @1</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>*=</Key>
+        </Keys>
+        <Code>@0 = @0 * @1</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>/=</Key>
+        </Keys>
+        <Code>@0 = @0 / @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>+</Key>
+        </Keys>
+        <Code>@0 = @0 + 1</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>@0 = @0 - 1</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>case @0 : @1</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>case @0 :</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>#</Key>
+        </Keys>
+        <Code>#@0</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>"""</Key>
+          <Key>"""</Key>
+        </Keys>
+        <Code>"""@0"""</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>"""</Key>
+        </Keys>
+        <Code>"""@0</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>"""</Key>
+        </Keys>
+        <Code>@0"""</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>@0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>break</Key>
+        </Keys>
+        <Code>break</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>continue</Key>
+        </Keys>
+        <Code>continue</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>@0</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: ,</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: ,</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+    </Commands>
+  </Syntax>
+  
+<Syntax>
+	<Language>javascript</Language>
+	<Typed>false</Typed>
+	<Commands>
+		<Command>
+			<Id>0</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>1</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>--</Key>
+				<Key>&gt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt;= @2; @0--){</Code>
+		</Command>
+		<Command>
+			<Id>2</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>3</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>++</Key>
+				<Key>&lt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt;= @2; @0++){</Code>
+		</Command>
+		<Command>
+			<Id>4</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>5</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>--</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt; @2; @0--){</Code>
+		</Command>
+		<Command>
+			<Id>6</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>7</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>++</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt; @2; @0++){</Code>
+		</Command>
+		<Command>
+			<Id>8</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>9</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&gt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt;= @2; @0 = @0-@3){</Code>
+		</Command>
+		<Command>
+			<Id>10</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>11</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&lt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt;= @2; @0 = @0+@3){</Code>
+		</Command>
+		<Command>
+			<Id>12</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>13</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&gt;</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt; @2; @0 = @0-@3){</Code>
+		</Command>
+		<Command>
+			<Id>14</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>15</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&lt;</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt; @2; @0 = @0+@3){</Code>
+		</Command>
+		<Command>
+			<Id>16</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>17</Id>
+			<Keys>
+				<Key>while</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>while (@0){</Code>
+		</Command>
+		<Command>
+			<Id>18</Id>
+			<Keys>
+				<Key>}</Key>
+				<Key>while</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+				<Key>;</Key></Keys>
+			<Code>} while (@0);</Code>
+		</Command><Command>
+			<Id>19</Id>
+			<Keys>
+				<Key>do</Key>
+				<Key>{</Key></Keys>
+			<Code>do{</Code>
+		</Command>
+		
+		<Command>
+			<Id>20</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>21</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>if</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>else if (@0){</Code>
+		</Command>
+		<Command>
+			<Id>22</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>23</Id>
+			<Keys>
+				<Key>if</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>if (@0){</Code>
+		</Command>
+		<Command>
+			<Id>24</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>25</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>else{</Code>
+		</Command>
+		<Command>
+			<Id>26</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code> </Code>
+		</Command>
+		<Command>
+			<Id>27</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>main</Key>
+			</Keys>
+			<Code>&lt;script type="text/javascript"&gt;</Code>
+		</Command>
+		<Command>
+			<Id>28</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>29</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>void</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>30</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>31</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>static</Key>
+				<Key>void</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>32</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>33</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>void</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>34</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>35</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>void</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>36</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>37</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>class</Key>
+			</Keys>
+			<Code>function @0{</Code>
+		</Command>
+		<Command>
+			<Id>38</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>39</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>class</Key>
+			</Keys>
+			<Code>function @0{</Code>
+		</Command>
+		<Command>
+			<Id>40</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>41</Id>
+			<Keys>
+				<Key>class</Key>
+			</Keys>
+			<Code>function @0{</Code>
+		</Command>
+		<Command>
+			<Id>42</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>43</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>44</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>45</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>static</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>46</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>47</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>48</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>49</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>50</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>51</Id>
+			<Keys>
+				<Key>switch</Key>
+			</Keys>
+			<Code>switch(@0){</Code>
+		</Command>
+		<Command>
+			<Id>52</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>53</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>54</Id>
+			<Keys>
+				<Key>return</Key>
+			</Keys>
+			<Code>return @0;</Code>
+		</Command>
+		<Command>
+			<Id>55</Id>
+			<Keys>
+				<Key>System.out.println</Key>
+			</Keys>
+			<Code>document.writeln(@0);</Code>
+		</Command>
+		<Command>
+			<Id>55</Id>
+			<Keys>
+				<Key>System.out.print</Key>
+			</Keys>
+			<Code>document.write(@0);</Code>
+		</Command>
+		<Command>
+			<Id>56</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>if</Key>
+			</Keys>
+			<Code>else if (@0)</Code>
+		</Command>
+		<Command>
+			<Id>57</Id>
+			<Keys>
+				<Key>if</Key>
+				<Key>(</Key>
+			</Keys>
+			<Code>if (@0)</Code>
+		</Command>
+		<Command>
+			<Id>58</Id>
+			<Keys>
+				<Key>else</Key>
+			</Keys>
+			<Code>else</Code>
+		</Command>
+		<Command>
+			<Id>59</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>60</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>61</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>62</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>63</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>64</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>65</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>66</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>67</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>68</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>var @0 = new Array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>69</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>70</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>71</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>72</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>73</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>74</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>75</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>76</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>77</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>78</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>var @0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>79</Id>
+			<Keys>
+				<Key>new</Key>
+				<Key>=</Key>
+			</Keys>
+			<Code>var @0 = new @1(@2);</Code>
+		</Command>
+		<Command>
+			<Id>80</Id>
+			<Keys>
+				<Key>new</Key>
+			</Keys>
+			<Code>new @0(@1);</Code>
+		</Command>
+		<Command>
+			<Id>81</Id>
+			<Keys>
+				<Key>+=</Key>
+			</Keys>
+			<Code>@0 += @1;</Code>
+		</Command>
+		<Command>
+			<Id>82</Id>
+			<Keys>
+				<Key>-=</Key>
+			</Keys>
+			<Code>@0 -= @1;</Code>
+		</Command>
+		<Command>
+			<Id>83</Id>
+			<Keys>
+				<Key>*=</Key>
+			</Keys>
+			<Code>@0 *= @1;</Code>
+		</Command>
+		<Command>
+			<Id>84</Id>
+			<Keys>
+				<Key>/=</Key>
+			</Keys>
+			<Code>@0 /= @1;</Code>
+		</Command>
+		<Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>var @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>var @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>var @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>var @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>var @0 = @1;</Code>
+      </Command>
+		<Command>
+			<Id>85</Id>
+			<Keys>
+				<Key>=</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>86</Id>
+			<Keys>
+				<Key>++</Key>
+			</Keys>
+			<Code>@0++;</Code>
+		</Command>
+		<Command>
+			<Id>87</Id>
+			<Keys>
+				<Key>--</Key>
+			</Keys>
+			<Code>@0--;</Code>
+		</Command>
+		<Command>
+			<Id>88</Id>
+			<Keys>
+				<Key>case</Key>
+				<Key>;</Key>
+			</Keys>
+			<Code>case @0 : @1;</Code>
+		</Command>
+		<Command>
+			<Id>89</Id>
+			<Keys>
+				<Key>case</Key>
+			</Keys>
+			<Code>case @0 :</Code>
+		</Command>
+		<Command>
+			<Id>90</Id>
+			<Keys>
+				<Key>//</Key>
+			</Keys>
+			<Code>//@0</Code>
+		</Command>
+		<Command>
+			<Id>91</Id>
+			<Keys>
+				<Key>/*</Key>
+				<Key>*/</Key>
+			</Keys>
+			<Code>/*@0*/</Code>
+		</Command>
+		<Command>
+			<Id>92</Id>
+			<Keys>
+				<Key>/*</Key>
+			</Keys>
+			<Code>/*@0</Code>
+		</Command>
+		<Command>
+			<Id>93</Id>
+			<Keys>
+				<Key>*/</Key>
+			</Keys>
+			<Code>@0*/</Code>
+		</Command>
+		<Command>
+			<Id>94</Id>
+			<Keys>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>@0(@1);</Code>
+		</Command>
+		<Command>
+			<Id>95</Id>
+			<Keys>
+				<Key>break;</Key>
+			</Keys>
+			<Code>break;</Code>
+		</Command>
+		<Command>
+			<Id>96</Id>
+			<Keys>
+				<Key>continue;</Key>
+			</Keys>
+			<Code>continue;</Code>
+		</Command>
+		<Command>
+			<Id>97</Id>
+			<Keys>
+				<Key>;</Key>
+			</Keys>
+			<Code>@0;</Code>
+		</Command>
+		<Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+	</Commands>
+</Syntax><Syntax>
+	<Language>PHP</Language>
+	<Typed>false</Typed>
+	<Commands>
+		<Command>
+			<Id>0</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>1</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>--</Key>
+				<Key>&gt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt;= @2; @0--){</Code>
+		</Command>
+		<Command>
+			<Id>2</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>3</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>++</Key>
+				<Key>&lt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt;= @2; @0++){</Code>
+		</Command>
+		<Command>
+			<Id>4</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>5</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>--</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt; @2; @0--){</Code>
+		</Command>
+		<Command>
+			<Id>6</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>7</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>++</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt; @2; @0++){</Code>
+		</Command>
+		<Command>
+			<Id>8</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>9</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&gt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt;= @2; @0 = @0-@3){</Code>
+		</Command>
+		<Command>
+			<Id>10</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>11</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&lt;=</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt;= @2; @0 = @0+@3){</Code>
+		</Command>
+		<Command>
+			<Id>12</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>13</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&gt;</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &gt; @2; @0 = @0-@3){</Code>
+		</Command>
+		<Command>
+			<Id>14</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>15</Id>
+			<Keys>
+				<Key>for</Key>
+				<Key>&lt;</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>for (@0 = @1; @0 &lt; @2; @0 = @0+@3){</Code>
+		</Command>
+		<Command>
+			<Id>16</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>17</Id>
+			<Keys>
+				<Key>while</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>while (@0){</Code>
+		</Command>
+		<Command>
+			<Id>18</Id>
+			<Keys>
+				<Key>}</Key>
+				<Key>while</Key>
+				<Key>(</Key>
+				<Key>)</Key>
+				<Key>;</Key></Keys>
+			<Code>} while (@0);</Code>
+		</Command><Command>
+			<Id>19</Id>
+			<Keys>
+				<Key>do</Key>
+				<Key>{</Key></Keys>
+			<Code>do{</Code>
+		</Command>
+		
+		<Command>
+			<Id>20</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>21</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>if</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>else if (@0){</Code>
+		</Command>
+		<Command>
+			<Id>22</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>23</Id>
+			<Keys>
+				<Key>if</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>if (@0){</Code>
+		</Command>
+		<Command>
+			<Id>24</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>25</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>else{</Code>
+		</Command>
+		<Command>
+			<Id>26</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code> </Code>
+		</Command>
+		<Command>
+			<Id>27</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>main</Key>
+			</Keys>
+			<Code>&lt;?php</Code>
+		</Command>
+		<Command>
+			<Id>28</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>29</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>void</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>public static function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>30</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>31</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>static</Key>
+				<Key>void</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>private static function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>32</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>33</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>void</Key>
+			</Keys>
+			<Code>public fuction @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>34</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>35</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>void</Key>
+			</Keys>
+			<Code>private function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>36</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>37</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>class</Key>
+			</Keys>
+			<Code>class @0{</Code>
+		</Command>
+		<Command>
+			<Id>38</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>39</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>class</Key>
+			</Keys>
+			<Code>class @0{</Code>
+		</Command>
+		<Command>
+			<Id>40</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>41</Id>
+			<Keys>
+				<Key>class</Key>
+			</Keys>
+			<Code>class @0{</Code>
+		</Command>
+		<Command>
+			<Id>42</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>43</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>static</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>public static function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>44</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>45</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>static</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>public static function @1(@2){</Code>
+		</Command>
+		<Command>
+			<Id>46</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>47</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>public function @1 (@2){</Code>
+		</Command>
+		<Command>
+			<Id>48</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>49</Id>
+			<Keys>
+				<Key>private</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>private function @1 (@2){</Code>
+		</Command>
+		<Command>
+			<Id>50</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>51</Id>
+			<Keys>
+				<Key>switch</Key>
+			</Keys>
+			<Code>switch(@0){</Code>
+		</Command>
+		<Command>
+			<Id>52</Id>
+			<Keys>
+				<Key>}</Key>
+			</Keys>
+			<Code>}</Code>
+		</Command>
+		<Command>
+			<Id>53</Id>
+			<Keys>
+				<Key>public</Key>
+				<Key>{</Key>
+			</Keys>
+			<Code>function @0(@1){</Code>
+		</Command>
+		<Command>
+			<Id>54</Id>
+			<Keys>
+				<Key>return</Key>
+			</Keys>
+			<Code>return @0;</Code>
+		</Command>
+		<Command>
+			<Id>55</Id>
+			<Keys>
+				<Key>System.out.println</Key>
+			</Keys>
+			<Code>echo @0;</Code>
+		</Command>
+		<Command>
+			<Id>55</Id>
+			<Keys>
+				<Key>System.out.print</Key>
+			</Keys>
+			<Code>echo @0;</Code>
+		</Command>
+		<Command>
+			<Id>56</Id>
+			<Keys>
+				<Key>else</Key>
+				<Key>if</Key>
+			</Keys>
+			<Code>else if (@0)</Code>
+		</Command>
+		<Command>
+			<Id>57</Id>
+			<Keys>
+				<Key>if</Key>
+				<Key>(</Key>
+			</Keys>
+			<Code>if (@0)</Code>
+		</Command>
+		<Command>
+			<Id>58</Id>
+			<Keys>
+				<Key>else</Key>
+			</Keys>
+			<Code>else</Code>
+		</Command>
+		<Command>
+			<Id>59</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>60</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>61</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>62</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>63</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[][]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1,@2);</Code>
+		</Command>
+		<Command>
+			<Id>64</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>65</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>66</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>67</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>68</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[]</Key>
+				<Key>new</Key>
+			</Keys>
+			<Code>@0 = array(@1);</Code>
+		</Command>
+		<Command>
+			<Id>69</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>70</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>71</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>72</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>73</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[][]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>74</Id>
+			<Keys>
+				<Key>int</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>75</Id>
+			<Keys>
+				<Key>float</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>76</Id>
+			<Keys>
+				<Key>double</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>77</Id>
+			<Keys>
+				<Key>String</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>78</Id>
+			<Keys>
+				<Key>boolean</Key>
+				<Key>[]</Key>
+				<Key>{</Key>
+				<Key>}</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>79</Id>
+			<Keys>
+				<Key>new</Key>
+				<Key>=</Key>
+			</Keys>
+			<Code>@0 = new @1(@2);</Code>
+		</Command>
+		<Command>
+			<Id>80</Id>
+			<Keys>
+				<Key>new</Key>
+			</Keys>
+			<Code>new @0(@1);</Code>
+		</Command>
+		<Command>
+			<Id>81</Id>
+			<Keys>
+				<Key>+=</Key>
+			</Keys>
+			<Code>@0 += @1;</Code>
+		</Command>
+		<Command>
+			<Id>82</Id>
+			<Keys>
+				<Key>-=</Key>
+			</Keys>
+			<Code>@0 -= @1;</Code>
+		</Command>
+		<Command>
+			<Id>83</Id>
+			<Keys>
+				<Key>*=</Key>
+			</Keys>
+			<Code>@0 *= @1;</Code>
+		</Command>
+		<Command>
+			<Id>84</Id>
+			<Keys>
+				<Key>/=</Key>
+			</Keys>
+			<Code>@0 /= @1;</Code>
+		</Command>
+		<Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+		<Command>
+			<Id>85</Id>
+			<Keys>
+				<Key>=</Key>
+			</Keys>
+			<Code>@0 = @1;</Code>
+		</Command>
+		<Command>
+			<Id>86</Id>
+			<Keys>
+				<Key>++</Key>
+			</Keys>
+			<Code>@0++;</Code>
+		</Command>
+		<Command>
+			<Id>87</Id>
+			<Keys>
+				<Key>--</Key>
+			</Keys>
+			<Code>@0--;</Code>
+		</Command>
+		<Command>
+			<Id>88</Id>
+			<Keys>
+				<Key>case</Key>
+				<Key>;</Key>
+			</Keys>
+			<Code>case @0 : @1;</Code>
+		</Command>
+		<Command>
+			<Id>89</Id>
+			<Keys>
+				<Key>case</Key>
+			</Keys>
+			<Code>case @0 :</Code>
+		</Command>
+		<Command>
+			<Id>90</Id>
+			<Keys>
+				<Key>//</Key>
+			</Keys>
+			<Code>//@0</Code>
+		</Command>
+		<Command>
+			<Id>91</Id>
+			<Keys>
+				<Key>/*</Key>
+				<Key>*/</Key>
+			</Keys>
+			<Code>/*@0*/</Code>
+		</Command>
+		<Command>
+			<Id>92</Id>
+			<Keys>
+				<Key>/*</Key>
+			</Keys>
+			<Code>/*@0</Code>
+		</Command>
+		<Command>
+			<Id>93</Id>
+			<Keys>
+				<Key>*/</Key>
+			</Keys>
+			<Code>@0*/</Code>
+		</Command>
+		<Command>
+			<Id>94</Id>
+			<Keys>
+				<Key>(</Key>
+				<Key>)</Key>
+			</Keys>
+			<Code>@0(@1);</Code>
+		</Command>
+		<Command>
+			<Id>95</Id>
+			<Keys>
+				<Key>break;</Key>
+			</Keys>
+			<Code>break;</Code>
+		</Command>
+		<Command>
+			<Id>96</Id>
+			<Keys>
+				<Key>continue;</Key>
+			</Keys>
+			<Code>continue;</Code>
+		</Command>
+		<Command>
+			<Id>97</Id>
+			<Keys>
+				<Key>;</Key>
+			</Keys>
+			<Code>@0;</Code>
+		</Command>
+		<Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: .</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: .</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: .</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: .</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VA</Code>
+      </Command>
+	</Commands>
+</Syntax>
+<Syntax>
+    <Language>C++</Language>
+    <Typed>true</Typed>
+    <Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>&gt;=</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt;= @2; @0--){</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>&lt;=</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt;= @2; @0++){</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt; @2; @0--){</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt; @2; @0++){</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;=</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt;= @2; @0 = @0-@3){</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;=</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt;= @2; @0 = @0+@3){</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &gt; @2; @0 = @0-@3){</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;</Key>
+        </Keys>
+        <Code>for (@0 = @1; @0 &lt; @2; @0 = @0+@3){</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>while</Key>
+        </Keys>
+        <Code>while (@0){</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>}</Key>
+      		<Key>while</Key></Keys>
+      	<Code>} while (@0);</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>do</Key>
+      		<Key>{</Key></Keys>
+      	<Code>do {</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>else if (@0){</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>if (@0){</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>else{</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>main</Key>
+        </Keys>
+        <Code>int main(){</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>void</Key>
+        </Keys>
+        <Code>void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>void</Key>
+        </Keys>
+        <Code>void @0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>class</Key>
+        </Keys>
+        <Code>class @0{</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>class</Key>
+        </Keys>
+        <Code>class @0{</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>struct</Key>
+        </Keys>
+        <Code>struct @0{</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>{</Key>
+        </Keys>
+        <Code>@0 @1(@2){</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>{</Key>
+        </Keys>
+        <Code>@0 @1(@2){</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>{</Key>
+        </Keys>
+        <Code>@0 @1 (@2){</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>{</Key>
+        </Keys>
+        <Code>@0 @1 (@2){</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>switch</Key>
+        </Keys>
+        <Code>switch(@0){</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>}</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>{</Key>
+        </Keys>
+        <Code>@0(@1){</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>return</Key>
+        </Keys>
+        <Code>return @0;</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>cout</Key>
+        </Keys>
+        <Code>cout &lt;&lt; @0 &lt;&lt; endl;</Code>
+      </Command>
+	  <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>cout</Key>
+        </Keys>
+        <Code>cout &lt;&lt; @0 &lt;&lt; endl;</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+        </Keys>
+        <Code>else if (@0)</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>(</Key>
+        </Keys>
+        <Code>if (@0)</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>else</Key>
+        </Keys>
+        <Code>else</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>int[][] @0 = new int[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>float[][] @0 = new float[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>double[][] @0 = new double[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>String[][] @0 = new String[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>boolean[][] @0 = new boolean[@1][@2];</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>int[] @0 = new int[@1];</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>float[] @0 = new float[@1];</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>double[] @0 = new double[@1];</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>String[] @0 = new String[@1];</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>boolean[] @0 = new boolean[@1];</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>int[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>float[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>double[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>String[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>boolean[][] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>int[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>float[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>double[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>String[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>boolean[] @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>new</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = new @1(@2);</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>new</Key>
+        </Keys>
+        <Code>new @0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>+=</Key>
+        </Keys>
+        <Code>@0 += @1;</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-=</Key>
+        </Keys>
+        <Code>@0 -= @1;</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>*=</Key>
+        </Keys>
+        <Code>@0 *= @1;</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>/=</Key>
+        </Keys>
+        <Code>@0 /= @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>int @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>float @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>double @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>boolean @0 = @1;</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>String @0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1;</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>++</Key>
+        </Keys>
+        <Code>@0++;</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>--</Key>
+        </Keys>
+        <Code>@0--;</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>case</Key>
+          <Key>;</Key>
+        </Keys>
+        <Code>case @0 : @1;</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>case @0 :</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>//</Key>
+        </Keys>
+        <Code>//@0</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>/*</Key>
+          <Key>*/</Key>
+        </Keys>
+        <Code>/*@0*/</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>/*</Key>
+        </Keys>
+        <Code>/*@0</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>*/</Key>
+        </Keys>
+        <Code>@0*/</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>@0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>break;</Key>
+        </Keys>
+        <Code>break;</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>continue;</Key>
+        </Keys>
+        <Code>continue;</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>;</Key>
+        </Keys>
+        <Code>@0;</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+    </Commands>
+  </Syntax>
+<Syntax>
+    <Language>Selitys</Language>
+    <Typed>false</Typed>
+    <Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan vähenevä for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2.</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan kasvava for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2.</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan vähenevä for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2+1.</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan kasvava for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2-1.</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan vähenevä for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2.</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan kasvava for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2.</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan vähenevä for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2+1.</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan kasvava for-silmukka muuttujaa @0 käyttäen arvosta @1 arvoon @2-1.</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>While-silmukka päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan while-silmukka, jota suoritetaan niin kauan kun ehto @0 on voimassa.</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>-</Key></Keys>
+      	<Code>Do-while lohkon suoritus jatkuu, jos ehto @0 on voimassa.</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>-</Key></Keys>
+      	<Code>Do-while lohkon suoritus alkaa</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else if-lohko päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Ehtolause. Lohko suoritetaan, jos aikaisemmat if- tai else if- lauseet eivät olleet tosia, ja jos ehto @0 on tosi.</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>If-lohko päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Ehtolause. Lohko suoritetaan, jos ehto @0 on tosi.</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else-lohko päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Lohko, joka suoritetaan, jos edellisen if -lauseen ehto EI ole tosi.</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Pääohjelman suoritus päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Pääohjelman suoritus alkaa.</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Staattinen metodi päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan staattinen metodi @0. Metodin parametriksi välitetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Staattinen metodi päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan staattinen metodi @0. Metodin parametriksi välitetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Void-tyypinen metodi (eli proseduuri) päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan void -tyyppinen (ei palautusarvoa) metodi (eli proseduuri) @0. Parametriksi välitetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Void-tyyppinen funktio (eli proseduuri) päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan yksityinen proseduuri @0. Parametriksi välitetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luokan määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan julkinen luokka @0.</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luokan määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan yksityinen luokka @0.</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luokan määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan luokka @0.</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Staattinen metodi päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan staattinen metodi @1. Metodin parametriksi välitetään @2 ja se palauttaa muuttujan tyyppiä @0.</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Staattinen metodi päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan staattinen funktio @1. Metodin parametriksi välitetään @2 ja se palauttaa muuttujan tyyppiä @0.</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Metodin määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan metodi @1. Metodin parametriksi välitetään @2 ja se palauttaa muuttujan tyyppiä @0.</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Metodin määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Alustetaan yksityinen metodi @1. Metodin parametriksi välitetään @2 ja se palauttaa muuttujan tyyppiä @0.</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Valintarakenne päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Valintarakenne alkaa. Vaihtuva muuttuja on @0.</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Konstruktorin määrittely päättyy.</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Määritellään luokan @0 konstruktori. Parametriksi välitetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Palautetaan metodista arvo @0.</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Tulostetaan @0.</Code>
+      </Command>
+	  <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Tulostetaan @0.</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Ehtolause. Seuraava käsky suoritetaan, jos ehto @0 on tosi.</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Ehtolause. Seuraava käsky suoritetaan, jos ehto @0 on tosi.</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Valinnainen ehtolause. Suoritetaan, jos edellisen if -lauseen ehto EI ole tosi.</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan kokonaislukumatriisi @0.</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukumatriisi @0.</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukumatriisi @0.</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan merkkijonomatriisi @0.</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan totuusarvomatriisi @0.</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan kokonaislukutaulukko @0.</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukutaulukko @0.</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukutaulukko @0.</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan merkkijonotaulukko @0.</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan totuusarvotaulukko @0.</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan kokonaislukumatriisi @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukumatriisi @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukumatriisi @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan merkkijonomatriisi @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan totuusarvomatriisi @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan kokonaislukutaulukko @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukutaulukko @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan liukulukutaulukko @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan merkkijonotaulukko @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan totuusarvotaulukko @0 ja alustetaan se arvoilla @1.</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan uusi @1 tyyppinen tietue @0.</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Luodaan uusi @0 tyyppinen tietue.</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Sijoituslause. Muuttujaan @0 lisätään @1.</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Sijoituslause. Muuttujasta @0 vähennetään @1.</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Sijoituslause. Muuttuja @0 kerrotaan @1:lla.</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Sijoituslause. Muuttuja @0 jaetaan @1:lla.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>Alustetaan kokonaislukumuuttuja @0 ja sijoitetaan sen arvoksi @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Alustetaan liukulukumuuttuja @0 ja sijoitetaan sen arvoksi @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Alustetaan liukulukumuuttuja @0 ja sijoitetaan sen arvoksi @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Alustetaan totuusarvomuuttuja @0 ja sijoitetaan sen arvoksi @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Alustetaan merkkijonomuuttuja @0 ja sijoitetaan sen arvoksi @1.</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Sijoituslause. Muuttujaan @0 sijoitetaan @1.</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kasvatuslause. Kasvatetaan muuttujan @0 arvoa yhdellä.</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Vähennyslause. Vähennetään muuttujan @0 arvoa yhdellä.</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Valintarakenteen valinta: jos ehto toteuttaa arvon @0, suoritetaan @1.</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Valintarakenteen valinta: jos ehto totetutaa arvon @0, suoritetaan alla olevat käskyt.</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kommentti. Ei vaikuta ohjelman suoritukseen.</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kommentti. Ei vaikuta ohjelman suoritukseen.</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kommenttilohko alkaa. Ei vaikuta ohjelman suoritukseen.</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kommenttilohko loppuu. Ei vaikuta ohjelman suoritukseen.</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Kutsutaan metodia @0.</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Poistutaan silmukan suorituksesta.</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Silmukan suoritus jatkuu silmukan alusta.</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Esitellään muuttuja @0, mutta ei alusteta sitä.</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR</Key>
+        </Keys>
+        <Code>Tätä merkkiä käytetään kahden merkkijonon katenoinnissa</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR</Key>
+        </Keys>
+        <Code>Tätä merkkiä käytetään merkkijonon ja numeron katenoinnissa</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+    </Commands>
+  </Syntax>
+  <Syntax>
+    <Language>Explanation</Language>
+    <Typed>false</Typed>
+    <Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞減For/Next迴圈使用變數 @0 從值 @1 到值 @2.</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞增For/Next迴圈使用變數 @0 從值 @1 到值 @2.</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞減For/Next迴圈使用變數 @0 從值 @1 到值 @2+1.</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞增For/Next迴圈使用變數 @0 從值 @1 到值 @2-1.</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞減For/Next迴圈使用變數 @0 從值 @1 到值 @2.</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞增For/Next迴圈使用變數 @0 從值 @1 到值 @2.</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞減For/Next迴圈使用變數 @0 從值 @1 到值 @2+1.</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>For/Next迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始遞增For/Next迴圈使用變數 @0 從值 @1 到值 @2-1.</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Do While/Loop迴圈結束.</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始Do While/Loop迴圈. 持續執行迴圈當條件 @0 為 True 時.</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>-</Key></Keys>
+      	<Code>Do While迴圈當條件 @0 為 True 時執行迴圈.</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>-</Key></Keys>
+      	<Code>Do While迴圈初始.</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else If程式區塊結束.</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>條件敘述. 執行程式區塊是當前面的 If- 或 Else If的條件為 False 且目前的 If 條件 @0 為 True.</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>If Then程式區塊結束.</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>條件敘述. 執行程式區塊是當 If 條件 @0 為 True.</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else程式區塊結束.</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>程式區塊執行是當前面的 If 或 If 巢狀條件敘述的條件為 False.</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>主程式結束.</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>主程式開始執行.</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>靜態方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始靜態方法(程序或函數) @0. 方法(程序或函數)的參數為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>靜態方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始靜態方法(程序或函數) @0. 方法(程序或函數)參數為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>靜態方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始void型態的方法(程序) @0 表示沒有傳回值. 方法(程序或函數)參數是 @1.</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>定義Private存取修飾子的程序 @0 內含參數 @1.</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>類別定義結束.</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>定義Public存取類別 @0.</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>類別定義結束.</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>定義Private存取類別 @0.</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>類別定義結束.</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>定義類別 @0.</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>靜態方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始靜態方法(程序或函數) @1. 方法(程序或函數)參數為 @2 和其傳回變數的型態為 @0.</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>靜態方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始靜態方法(程序或函數) @1. 方法(程序或函數)參數為 @2 和其傳回變數的型態為 @0.</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始方法(程序或函數) @1. 方法(程序或函數)參數為 @2 和其傳回變數的型態為 @0.</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>方法(程序或函數)結束.</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始 Private 存取方法(程序或函數) @1. 方法(程序或函數)參數為 @2 和其傳回變數的型態為 @0.</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Select Case條件敘述結束.</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Select Case條件敘述開始, 其條件為 @0.</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建構子函數結束.</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>定義類別的建構子函數 @0 其參數為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>方法或函數傳回 @0.</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>輸出 @0.</Code>
+      </Command>
+	  <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>輸出 @0.</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else if敘述執行下一行是當條件 @0 為 True.</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>If Then敘述執行下一行是當條件 @0 為 True.</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Else敘述執行是當前面 If 條件為 False.</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立整數型態的二維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的二維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的二維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立字串型態的二維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立布林型態的二維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立整數型態的一維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的一維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的一維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立字串型態的一維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立布林型態的一維陣列 @0 .</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立整數型態的二維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的二維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的二維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立字串型態的二維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立布林型態的二維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立整數型態的一維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的一維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立浮點數型態的一維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立字串型態的一維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立布林型態的一維陣列 @0 並且指定陣列初值為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>初始物件變數 @0 為類別 @1 的物件實例, 並且指定建構子參數為 @2.</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>建立類別 @0 的物件實例, 並且指定建構子參數為 @1.</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>指定敘述.加上 @1 值至變數 @0.</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>指定敘述.減掉 @1 值從變數 @0.</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>指定敘述. 變數 @0 乘以 @1.</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>指定敘述. 變數 @0 除以 @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>初始整數變數 @0 的值為 @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>初始浮點變數 @0 的值為 @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>初始浮點變數 @0 的值為 @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>初始布林變數 @0 的值為 @1.</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>初始字串變數 @0 的值 @1.</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>指定敘述指定 @1 值給變數 @0.</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>遞增運算. 將變數 @0 加一.</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>遞減運算. 將變數 @0 減一.</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Select Case條件敘述的 Case 條件: 如果條件為 @0, 執行 @1.</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>Select Case條件敘述的 Case 條件: 如果條件為 @0, 執行之後的程式碼.</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>註解文字. 並不影響程式的執行.</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>註解文字. 並不影響程式的執行.</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>註解文字區塊開始. 並不影響程式的執行.</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>註解文字區塊結束. 並不影響程式的執行.</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>呼叫方法或程序 @0, 傳入參數 @1.</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>跳出目前的迴圈.</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>馬上從目前位置執行下一次的迴圈.</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>-</Key>
+        </Keys>
+        <Code>變數 @0 出現, 但是並未宣告和初始.</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR</Key>
+        </Keys>
+        <Code>此字元是用來結合2個字串物件.</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR</Key>
+        </Keys>
+        <Code>此字元是用來結合字串和數值.</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>變數的字首.</Code>
+      </Command>
+    </Commands>
+  </Syntax>
+<Syntax>
+	<Language>PSEUDO</Language>
+	<Typed>false</Typed>
+	<Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 DOWNTO @2</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 TO @2</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 DOWNTO @2</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 TO @2</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 DOWNTO @2 STEP @3</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 TO @2 STEP @3</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 DOWNTO @2</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDFOR</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>FOR @0 := @1 TO @2 STEP @3</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDWHILE</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>while</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>WHILE @0 DO</Code>
+      </Command>
+      <Command>
+      	<Id>18</Id>
+      	<Keys>
+      		<Key>}</Key>
+      		<Key>while</Key>
+      		<Key>(</Key>
+      		<Key>)</Key>
+      		<Key>;</Key></Keys>
+      	<Code>UNTIL @0</Code>
+      </Command>
+      <Command>
+      	<Id>19</Id>
+      	<Keys>
+      		<Key>do</Key>
+      		<Key>{</Key></Keys>
+      	<Code>REPEAT</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDIF</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>ELSE IF @0 THEN</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDIF</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>IF @0 THEN</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDIF</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>ELSE</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>main</Key>
+        </Keys>
+        <Code>MODULE MAIN</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>MODULE @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>MODULE @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>END</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>RECORD @0</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>END</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>RECORD @0</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>END</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>class</Key>
+        </Keys>
+        <Code>RECORD @0</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @1(@2) RETURNS @0</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @1(@2) RETURNS @0</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @1(@2) RETURNS @0</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDMODULE</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @1(@2) RETURNS @0</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>ENDSWITCH</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>switch</Key>
+        </Keys>
+        <Code>SWITCH @0</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>END</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>MODULE @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>return</Key>
+        </Keys>
+        <Code>RETURN @0</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.println</Key>
+        </Keys>
+        <Code>tulosta @0</Code>
+      </Command>
+	  <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.print</Key>
+        </Keys>
+        <Code>tulosta @0</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+        </Keys>
+        <Code>ELSE IF @0 THEN</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>(</Key>
+        </Keys>
+        <Code>IF @0 THEN</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>else</Key>
+        </Keys>
+        <Code>ELSE</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele kokonaislukutaulukko @0[@1][@2]</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele desimaalilukutaulukko @0[@1][@2]</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele desimaalilukutaulukko @0[@1][@2]</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele merkkijonotaulukko @0[@1][@2]</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele totuusarvotaulukko @0[@1][@2]</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele kokonaislukutaulukko @0[@1]</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele desimaalilukutaulukko @0[@1]</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele desimaalilukutaulukko @0[@1]</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele merkkijonotaulukko @0[@1]</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Määrittele totuusarvotaulukko @0[@1]</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>new</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1(@2)</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>new</Key>
+        </Keys>
+        <Code>@0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>+=</Key>
+        </Keys>
+        <Code>@0 := @0 + @1</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-=</Key>
+        </Keys>
+        <Code>@0 := @0 - @1</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>*=</Key>
+        </Keys>
+        <Code>@0 := @0 * @1</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>/=</Key>
+        </Keys>
+        <Code>@0 := @0 / @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+		  <Key>int </Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+		  <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+	  <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 := @1</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>++</Key>
+        </Keys>
+        <Code>@0 := @0 + 1</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>--</Key>
+        </Keys>
+        <Code>@0 := @0 - 1</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>case</Key>
+          <Key>;</Key>
+        </Keys>
+        <Code>CASE @0 : @1</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>CASE @0 :</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>//</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>/*</Key>
+          <Key>*/</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>/*</Key>
+        </Keys>
+        <Code>''' @0</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>*/</Key>
+        </Keys>
+        <Code>@0 '''</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>@0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>break;</Key>
+        </Keys>
+        <Code>BREAK</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>continue;</Key>
+        </Keys>
+        <Code>CONTINUE</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>;</Key>
+        </Keys>
+        <Code>@0</Code>
+      </Command>
+	  <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: +</Code>
+      </Command>
+	  <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+    </Commands>
+</Syntax><Syntax>
+	<Language>Visual Basic</Language>
+	<Typed>true</Typed>
+	<Commands>
+      <Command>
+        <Id>0</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>1</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step -1</Code>
+      </Command>
+      <Command>
+        <Id>2</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>3</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step 1</Code>
+      </Command>
+      <Command>
+        <Id>4</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>5</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>--</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step -1</Code>
+      </Command>
+      <Command>
+        <Id>6</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>7</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>++</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step 1</Code>
+      </Command>
+      <Command>
+        <Id>8</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>9</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step @3</Code>
+      </Command>
+      <Command>
+        <Id>10</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>11</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;=</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step @3</Code>
+      </Command>
+      <Command>
+        <Id>12</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>13</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&gt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2</Code>
+      </Command>
+      <Command>
+        <Id>14</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Next</Code>
+      </Command>
+      <Command>
+        <Id>15</Id>
+        <Keys>
+          <Key>for</Key>
+          <Key>&lt;</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>For @0 = @1 To @2 Step @3</Code>
+      </Command>
+      <Command>
+        <Id>16</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>Loop</Code>
+      </Command>
+      <Command>
+        <Id>17</Id>
+        <Keys>
+          <Key>while</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Do While @0</Code>
+      </Command>
+      <Command>
+        <Id>18</Id>
+        <Keys>
+          <Key>}</Key>
+          <Key>while</Key>
+          <Key>(</Key>
+          <Key>)</Key>
+          <Key>;</Key>
+        </Keys>
+        <Code>Loop While @0</Code>
+      </Command>
+      <Command>
+        <Id>19</Id>
+        <Keys>
+          <Key>do</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Do</Code>
+      </Command>
+      <Command>
+        <Id>20</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End If</Code>
+      </Command>
+      <Command>
+        <Id>21</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Else If @0 Then</Code>
+      </Command>
+      <Command>
+        <Id>22</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End If</Code>
+      </Command>
+      <Command>
+        <Id>23</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>If @0 Then</Code>
+      </Command>
+      <Command>
+        <Id>24</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End If</Code>
+      </Command>
+      <Command>
+        <Id>25</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Else</Code>
+      </Command>
+      <Command>
+        <Id>26</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>27</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>main</Key>
+        </Keys>
+        <Code>Private Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click</Code>
+      </Command>
+      <Command>
+        <Id>28</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>29</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Sub @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>30</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>31</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>void</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Sub @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>32</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>33</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>Public Sub @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>34</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>35</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>void</Key>
+        </Keys>
+        <Code>Private Sub @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>36</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Class</Code>
+      </Command>
+      <Command>
+        <Id>37</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>Public Class @0</Code>
+      </Command>
+      <Command>
+        <Id>38</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Class</Code>
+      </Command>
+      <Command>
+        <Id>39</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>class</Key>
+        </Keys>
+        <Code>Private Class @0</Code>
+      </Command>
+      <Command>
+        <Id>40</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Class</Code>
+      </Command>
+      <Command>
+        <Id>41</Id>
+        <Keys>
+          <Key>class</Key>
+        </Keys>
+        <Code>Class @0</Code>
+      </Command>
+      <Command>
+        <Id>42</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Function</Code>
+      </Command>
+      <Command>
+        <Id>43</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Function @1(@2) As @0</Code>
+      </Command>
+      <Command>
+        <Id>44</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Function</Code>
+      </Command>
+      <Command>
+        <Id>45</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>static</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Function @1(@2) As @0</Code>
+      </Command>
+      <Command>
+        <Id>46</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Function</Code>
+      </Command>
+      <Command>
+        <Id>47</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Public Function @1(@2) As @0</Code>
+      </Command>
+      <Command>
+        <Id>48</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Function</Code>
+      </Command>
+      <Command>
+        <Id>49</Id>
+        <Keys>
+          <Key>private</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Private Function @1(@2) As @0</Code>
+      </Command>
+      <Command>
+        <Id>50</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Case</Code>
+      </Command>
+      <Command>
+        <Id>51</Id>
+        <Keys>
+          <Key>switch</Key>
+        </Keys>
+        <Code>Select Case @0</Code>
+      </Command>
+      <Command>
+        <Id>52</Id>
+        <Keys>
+          <Key>}</Key>
+        </Keys>
+        <Code>End Sub</Code>
+      </Command>
+      <Command>
+        <Id>53</Id>
+        <Keys>
+          <Key>public</Key>
+          <Key>{</Key>
+        </Keys>
+        <Code>Sub @0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>54</Id>
+        <Keys>
+          <Key>return</Key>
+        </Keys>
+        <Code>Return @0</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.println</Key>
+        </Keys>
+        <Code>lblOutput.Text &amp;= @0 &amp; vbNewLine</Code>
+      </Command>
+      <Command>
+        <Id>55</Id>
+        <Keys>
+          <Key>System.out.print</Key>
+        </Keys>
+        <Code>lblOutput.Text &amp;= @0</Code>
+      </Command>
+      <Command>
+        <Id>56</Id>
+        <Keys>
+          <Key>else</Key>
+          <Key>if</Key>
+        </Keys>
+        <Code>Else If @0 Then</Code>
+      </Command>
+      <Command>
+        <Id>57</Id>
+        <Keys>
+          <Key>if</Key>
+          <Key>(</Key>
+        </Keys>
+        <Code>If @0 Then</Code>
+      </Command>
+      <Command>
+        <Id>58</Id>
+        <Keys>
+          <Key>else</Key>
+        </Keys>
+        <Code>else</Code>
+      </Command>
+      <Command>
+        <Id>59</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1,@2) As Integer</Code>
+      </Command>
+      <Command>
+        <Id>60</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1,@2) As Single</Code>
+      </Command>
+      <Command>
+        <Id>61</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1,@2) As Double</Code>
+      </Command>
+      <Command>
+        <Id>62</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1,@2) As String</Code>
+      </Command>
+      <Command>
+        <Id>63</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1,@2) As Boolean</Code>
+      </Command>
+      <Command>
+        <Id>64</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1) As Integer</Code>
+      </Command>
+      <Command>
+        <Id>65</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1) As Single</Code>
+      </Command>
+      <Command>
+        <Id>66</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1) As Double</Code>
+      </Command>
+      <Command>
+        <Id>67</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1) As String</Code>
+      </Command>
+      <Command>
+        <Id>68</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>new</Key>
+        </Keys>
+        <Code>Dim @0(@1) As Boolean</Code>
+      </Command>
+      <Command>
+        <Id>69</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0(,) As Integer = @1</Code>
+      </Command>
+      <Command>
+        <Id>70</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0(,) As Single = @1</Code>
+      </Command>
+      <Command>
+        <Id>71</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0(,) As Double = @1</Code>
+      </Command>
+      <Command>
+        <Id>72</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0(,) As String = @1</Code>
+      </Command>
+      <Command>
+        <Id>73</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[][]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0(,) As Boolean = @1</Code>
+      </Command>
+      <Command>
+        <Id>74</Id>
+        <Keys>
+          <Key>int</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0() As Integer = @1</Code>
+      </Command>
+      <Command>
+        <Id>75</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0() As Single = @1</Code>
+      </Command>
+      <Command>
+        <Id>76</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0() As Double = @1</Code>
+      </Command>
+      <Command>
+        <Id>77</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0() As String = @1</Code>
+      </Command>
+      <Command>
+        <Id>78</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>[]</Key>
+          <Key>{</Key>
+          <Key>}</Key>
+        </Keys>
+        <Code>Dim @0() As Boolean = @1</Code>
+      </Command>
+      <Command>
+        <Id>79</Id>
+        <Keys>
+          <Key>new</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = New @1(@2)</Code>
+      </Command>
+      <Command>
+        <Id>80</Id>
+        <Keys>
+          <Key>new</Key>
+        </Keys>
+        <Code>New @0(@1);</Code>
+      </Command>
+      <Command>
+        <Id>81</Id>
+        <Keys>
+          <Key>+=</Key>
+        </Keys>
+        <Code>@0 += @1</Code>
+      </Command>
+      <Command>
+        <Id>82</Id>
+        <Keys>
+          <Key>-=</Key>
+        </Keys>
+        <Code>@0 -= @1</Code>
+      </Command>
+      <Command>
+        <Id>83</Id>
+        <Keys>
+          <Key>*=</Key>
+        </Keys>
+        <Code>@0 *= @1</Code>
+      </Command>
+      <Command>
+        <Id>84</Id>
+        <Keys>
+          <Key>/=</Key>
+        </Keys>
+        <Code>@0 /= @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+          <Key>int </Key>
+        </Keys>
+        <Code>Dim @0 As Integer = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>float</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Dim @0 As Single = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>double</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Dim @0 As Double = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>boolean</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Dim @0 As Boolean = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>String</Key>
+          <Key>=</Key>
+        </Keys>
+        <Code>Dim @0 As String = @1</Code>
+      </Command>
+      <Command>
+        <Id>85</Id>
+        <Keys>
+          <Key>=</Key>
+        </Keys>
+        <Code>@0 = @1</Code>
+      </Command>
+      <Command>
+        <Id>86</Id>
+        <Keys>
+          <Key>++</Key>
+        </Keys>
+        <Code>@0 = @0 + 1</Code>
+      </Command>
+      <Command>
+        <Id>87</Id>
+        <Keys>
+          <Key>--</Key>
+        </Keys>
+        <Code>@0 = @0 - 1</Code>
+      </Command>
+      <Command>
+        <Id>88</Id>
+        <Keys>
+          <Key>case</Key>
+          <Key>;</Key>
+        </Keys>
+        <Code>Case @0 : @1</Code>
+      </Command>
+      <Command>
+        <Id>89</Id>
+        <Keys>
+          <Key>case</Key>
+        </Keys>
+        <Code>Case @0</Code>
+      </Command>
+      <Command>
+        <Id>90</Id>
+        <Keys>
+          <Key>//</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>91</Id>
+        <Keys>
+          <Key>/*</Key>
+          <Key>*/</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>92</Id>
+        <Keys>
+          <Key>/*</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>93</Id>
+        <Keys>
+          <Key>*/</Key>
+        </Keys>
+        <Code>' @0</Code>
+      </Command>
+      <Command>
+        <Id>94</Id>
+        <Keys>
+          <Key>(</Key>
+          <Key>)</Key>
+        </Keys>
+        <Code>@0(@1)</Code>
+      </Command>
+      <Command>
+        <Id>95</Id>
+        <Keys>
+          <Key>break;</Key>
+        </Keys>
+        <Code>Exit</Code>
+      </Command>
+      <Command>
+        <Id>96</Id>
+        <Keys>
+          <Key>continue;</Key>
+        </Keys>
+        <Code>Continue</Code>
+      </Command>
+      <Command>
+        <Id>97</Id>
+        <Keys>
+          <Key>;</Key>
+        </Keys>
+        <Code>Dim @0 As</Code>
+      </Command>
+      <Command>
+        <Id>98</Id>
+        <Keys>
+          <Key>CATENATE STRING CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE STRING CHAR: &amp;</Code>
+      </Command>
+      <Command>
+        <Id>99</Id>
+        <Keys>
+          <Key>CATENATE NUMBER CHAR: +</Key>
+        </Keys>
+        <Code>CATENATE NUMBER CHAR: +</Code>
+      </Command>
+      <Command>
+        <Id>100</Id>
+        <Keys>
+          <Key>VARIABLE PREFIX: </Key>
+        </Keys>
+        <Code>VARIABLE PREFIX:</Code>
+      </Command>
+    </Commands>
+</Syntax></Syntaxes>

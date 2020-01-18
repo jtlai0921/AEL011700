@@ -1,0 +1,1 @@
+﻿<div id="header"><div id="logo"><h1><a href="index.php">學習評量測驗系統</a></h1><h2><a href="index.php">看實例學Visual Basic 2010程式設計</a></h2></div><?php require 'menutab.php'; ?></div>

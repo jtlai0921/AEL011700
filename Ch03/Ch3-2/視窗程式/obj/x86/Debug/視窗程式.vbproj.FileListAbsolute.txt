@@ -1,0 +1,14 @@
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\bin\Debug\視窗程式.exe
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\bin\Debug\視窗程式.pdb
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\bin\Debug\視窗程式.xml
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\視窗程式.Form1.resources
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\視窗程式.Resources.resources
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\視窗程式.exe
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\視窗程式.xml
+C:\VB2010\Ch02\Ch2-4-3\視窗程式\obj\x86\Debug\視窗程式.pdb
+C:\VB2010\Ch03\Ch3-2\視窗程式\obj\x86\Debug\視窗程式.exe
+C:\VB2010\Ch03\Ch3-2\視窗程式\obj\x86\Debug\視窗程式.xml
+C:\VB2010\Ch03\Ch3-2\視窗程式\obj\x86\Debug\視窗程式.pdb

@@ -1,0 +1,11 @@
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\bin\Debug\桌面隨意貼.exe
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\bin\Debug\桌面隨意貼.pdb
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\bin\Debug\桌面隨意貼.xml
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\桌面隨意貼.Form1.resources
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\桌面隨意貼.Resources.resources
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\桌面隨意貼.exe
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\桌面隨意貼.xml
+C:\VB2010\Ch13\Ch13-3\桌面隨意貼\obj\x86\Debug\桌面隨意貼.pdb

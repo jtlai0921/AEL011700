@@ -1,0 +1,11 @@
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\bin\Debug\文字按鈕.exe
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\bin\Debug\文字按鈕.pdb
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\bin\Debug\文字按鈕.xml
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\文字按鈕.Form1.resources
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\文字按鈕.Resources.resources
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\文字按鈕.exe
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\文字按鈕.xml
+C:\VB2010\Ch04\Ch4-4-1\文字按鈕\obj\x86\Debug\文字按鈕.pdb

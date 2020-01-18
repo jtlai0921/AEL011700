@@ -1,0 +1,10 @@
+<!ELEMENT Syntaxes (Syntax)*>
+<!ELEMENT Syntax (Language,Typed,Commands)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Typed (#PCDATA)>
+<!ELEMENT Commands (Command)*>
+<!ELEMENT Command (Id, Keys, Code)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT Keys (Key)*>
+<!ELEMENT Key (#PCDATA)>
+<!ELEMENT Code (#PCDATA)>

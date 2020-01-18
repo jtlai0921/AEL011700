@@ -1,0 +1,11 @@
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\bin\Debug\單行文字方塊.exe
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\bin\Debug\單行文字方塊.pdb
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\bin\Debug\單行文字方塊.xml
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\單行文字方塊.Form1.resources
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\單行文字方塊.Resources.resources
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\單行文字方塊.exe
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\單行文字方塊.xml
+C:\Users\hueyan\AppData\Local\Temporary Projects\單行文字方塊\obj\x86\Debug\單行文字方塊.pdb

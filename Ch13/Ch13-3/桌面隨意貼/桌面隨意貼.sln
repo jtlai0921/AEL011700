@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "桌面隨意貼", "桌面隨意貼.vbproj", "{C06934C0-AB88-4195-B77B-D43F8C72815D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06934C0-AB88-4195-B77B-D43F8C72815D}.Debug|x86.ActiveCfg = Debug|x86
+		{C06934C0-AB88-4195-B77B-D43F8C72815D}.Debug|x86.Build.0 = Debug|x86
+		{C06934C0-AB88-4195-B77B-D43F8C72815D}.Release|x86.ActiveCfg = Release|x86
+		{C06934C0-AB88-4195-B77B-D43F8C72815D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
